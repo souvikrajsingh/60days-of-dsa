@@ -1,0 +1,14 @@
+body {background-color: rgb(21, 163, 116);}
+        h1 { color:blue;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        ;
+    font-size: 300%;}
+        p { color: greenyellow;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border: 2px solid purple;
+
+        /* padding: 30px;} */
+        
+    margin: 50px;}
+
+    
