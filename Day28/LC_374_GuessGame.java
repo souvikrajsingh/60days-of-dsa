@@ -4,7 +4,7 @@ package com.souvik.Day28;
 
 //Not Working
 
-public class GuessGame {
+public class LC_374_GuessGame {
 
     static int[ ] guess = { 1,2,3,4,5,6,7,8,9,10};
     public static void main(String[] args) {

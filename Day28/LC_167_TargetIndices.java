@@ -4,7 +4,7 @@ package com.souvik.Day28;
 
 import java.util.Arrays;
 
-public class TargetIndices {
+public class LC_167_TargetIndices {
 
     public static void main(String[] args) {
 

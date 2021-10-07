@@ -2,7 +2,7 @@ package com.souvik.Day28;
 
 //https://leetcode.com/problems/valid-perfect-square/
 
-public class PerfectSquare {
+public class LC_367_PerfectSquare {
 
     public static void main(String[] args) {
 

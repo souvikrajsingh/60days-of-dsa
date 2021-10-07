@@ -2,7 +2,7 @@ package com.souvik.Day28;
 
 //https://leetcode.com/problems/arranging-coins/
 
-public class ArrangeCoins {
+public class LC_441_ArrangeCoins {
     
     public static void main(String[] args) {
 
