@@ -36,12 +36,11 @@ Memory Usage: 35.9 MB, less than 45.96% of Java online submissions for Valid Per
             }
         }
         return false;
-
-
-
+    }
+}
 
         /*
-        Brute -Force Approach 
+        Brute -Force Approach
         if(num < 2 )
         {
             return true;
@@ -57,7 +56,6 @@ Memory Usage: 35.9 MB, less than 45.96% of Java online submissions for Valid Per
         }
     }
 }*/
-    }
-}
+
 
 
