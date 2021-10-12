@@ -51,5 +51,27 @@ public class LC_162_PeakInArray {
             }
         }
     }
+
+
+
+    /*
+
+Runtime: 0 ms, faster than 100.00% of Java online submissions for Find Peak Element.
+Memory Usage: 39.9 MB, less than 19.98% of Java online submissions for Find Peak Element.
+
+    int s = 0;
+        int e = nums.length - 1;
+
+        while (s < e) {
+            int mid = s + (e - s) / 2;
+            if (nums[mid] > nums[mid + 1]) {
+                e = mid;
+            } else {
+                s = mid + 1;
+            }
+
+        }
+        return s;
+    }*/
 }
 
