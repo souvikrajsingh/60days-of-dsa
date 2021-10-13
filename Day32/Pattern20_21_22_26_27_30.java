@@ -1,13 +1,16 @@
 package com.souvik.Day32;
 
-public class Pattern20 {
+//https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/assignments/09-patterns.md
+
+public class Pattern20_21_22_26_27_30 {
     public static void main(String[] args) {
 
         /*pattern20(5);
         pattern21(5);
         pattern22(5);
-        pattern26(6);*/
-        pattern27(4);
+        pattern26(6);
+        pattern27(4);*/
+        pattern30(5);
     }
 
     static void pattern20(int n) {
@@ -96,6 +99,24 @@ public class Pattern20 {
 //            }
         }
     }
+
+    static void pattern30(int n)
+    {
+        for (int rows = 1; rows <= n; rows++) {
+
+            for (int spaces = 0; spaces < (n - rows); spaces++) {
+                System.out.print("  ");
+            }
+            for (int cols = rows; cols >= 1; cols--) {
+
+                System.out.print(cols + " ");
+            }
+            for (int cols = 2; cols <= rows; cols++) {
+                System.out.print(cols + " ");
+            }
+            System.out.println();
+        }
+        }
 }
 
 

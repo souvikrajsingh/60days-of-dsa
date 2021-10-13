@@ -2,7 +2,9 @@ package com.souvik.Day32;
 
 import java.util.Scanner;
 
-public class PatternContinued {
+//https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/assignments/09-patterns.md
+
+public class PatternContinued18_28 {
 
     public static void main(String[] args) {
 
