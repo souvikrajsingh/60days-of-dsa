@@ -18,8 +18,9 @@ public class Pattern {
         pattern9(n);
         pattern10(n);
         pattern11(n);
-        pattern12(n);*/
+        pattern12(n);
         pattern13(n);
+        pattern28(n);*/
     }
 
     static void pattern1(int n) {
@@ -188,6 +189,7 @@ public class Pattern {
             }
             System.out.println();
         }
+
         static void pattern12(int n)
         {
             for (int i = 0; i < n; i++) {
