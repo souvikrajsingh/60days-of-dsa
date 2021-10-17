@@ -7,6 +7,7 @@ public class Pattern_32_33 {
 
         pattern32(5);
         pattern33(5);
+        pattern34(5);
 
     }
     static void pattern32(int n) {
@@ -53,4 +54,26 @@ public class Pattern_32_33 {
             System.out.println();
         }
     }
-}
+
+    static void pattern34(int n) {
+        /*
+       E D C B A
+       D C B A
+       C B A
+       B A
+       A
+       */
+        System.out.println();
+        int p = 69;
+        for (int i = 1; i <= 5 ; i++) {
+            int k = p;
+            for (int j = 5; j >=i ; j--) {
+
+                System.out.print((char) k + " ");
+                k=k-1;
+            }
+            p=p-1;
+            System.out.println();
+        }
+    }
+    }
