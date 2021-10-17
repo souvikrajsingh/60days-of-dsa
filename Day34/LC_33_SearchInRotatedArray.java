@@ -13,6 +13,9 @@ public class LC_33_SearchInRotatedArray {
     }
     public static int search(int[] nums, int target) {
 
+        /*Runtime: 0 ms, faster than 100.00% of Java online submissions for Search in Rotated Sorted Array.
+        Memory Usage: 38.3 MB, less than 77.96% of Java online submissions for Search in Rotated Sorted Array.*/
+
         int pivot = findpivot(nums);
 
         if( pivot == -1 )
