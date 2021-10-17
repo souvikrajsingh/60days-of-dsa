@@ -2,7 +2,7 @@ package com.souvik.Day34;
 
 //https://github.com/kunal-kushwaha/DSA-Bootcamp-Java/blob/main/assignments/09-patterns.md
 
-public class Pattern_32_33 {
+public class Pattern_32_33_34 {
     public static void main(String[] args) {
 
         pattern32(5);
