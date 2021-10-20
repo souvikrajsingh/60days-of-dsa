@@ -15,8 +15,34 @@ public class LC_2000_ReversePrefix {
     }
     public static String reversePrefix(String word, char ch) {
 
-        /*Runtime: 3 ms, faster than 18.16% of Java online submissions for Reverse Prefix of Word.
+
+        /*Runtime: 1 ms, faster than 63.51% of Java online submissions for Reverse Prefix of Word.
         Memory Usage: 38.7 MB, less than 59.06% of Java online submissions for Reverse Prefix of Word.*/
+
+        char[] c = word.toCharArray();
+        int locate = 0;
+        for (int i = 0; i < word.length(); i++) { //first occurrence of ch
+            if (ch == c[i]) {
+                locate = i;
+                break;
+            }
+        }
+        char[] res = new char[word.length()];
+        for (int i = 0; i <= locate; i++) {
+            res[i] = c[locate - i];
+        }
+        for (int i = locate + 1; i < word.length(); i++) {
+            res[i] = c[i];
+        }
+        return String.valueOf(res);
+
+    }
+
+    }
+
+
+        /*Runtime: 3 ms, faster than 18.16% of Java online submissions for Reverse Prefix of Word.
+        Memory Usage: 38.7 MB, less than 59.06% of Java online submissions for Reverse Prefix of Word.
 
         int i;
         String s= "";
@@ -61,4 +87,4 @@ public class LC_2000_ReversePrefix {
         return reversed.toString();
     }
 
-}
+}*/
